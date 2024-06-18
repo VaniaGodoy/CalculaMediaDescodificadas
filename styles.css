@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Define a fonte principal do corpo do documento */
+    display: flex; /* Utiliza flexbox para layout */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura da tela inteira */
+    margin: 0; /* Remove a margem padrão do corpo */
+    background: linear-gradient(#4ceee3, #030936); /* De fine a cor de fundo do corpo */
+}
+
+.container {
+    background: #cbf0ed; /* Define a cor de fundo do container */
+    margin: 1rem;
+    padding: 1rem; /* Adiciona espaçamento interno ao container*/
+    border-radius: 10px; /* Arredonda os cantos do container */   
+    text-align: center; /* Centraliza o texto dentro do container */
+}
+
+.titulo {
+    margin-top: 1rem; /* Adiciona espaçamento superior ao titulo */
+    color: #f13ee8; /* Define a cor do texto do título */
+    text-transform: uppercase;/*Deixa o tituloem letra maiuscula*/
+    font-size: 1.7rem; /* Define o tamanho da fonte do titulo */
+}
+
+.calculadora-desenho {
+    width: 180px;/*Define o tamanho da imagem Calculadora*/
+}
+
+.texto {
+    margin-bottom: 1.8rem; /* Adiciona espaçamento inferior ao parágrafo */
+    color: #564eec; /* Define a cor do texto do texto */
+    font-size: 1rem; /* Define o tamanho da fonte do texto */
+    font-weight:bolder; /*Deixa a fonte em negrito*/
+}
+
+label {
+    display: inline-block; /* Exibe o rótulo como bloco inline */
+    width: 100%; /* Define a largura do rótulo */
+    color: #858791; /* Define a cor do texto do texto */
+}
+
+input[type="number"] {
+    width: calc(100% - 7rem); /* Define a largura do input considerando o rótulo (110px) */
+    padding: 0.5rem; /* Adiciona espaçamento interno ao input (5px) */    
+    border: 1px solid #bfbff0; /* Define a borda do input */
+    border-radius: 5px; /* Arredonda os cantos do input (5px) */
+    color: #091983; /* Define a cor do texto do texto */
+}
+
+button {
+    background-color: #0353a8; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 0.6rem 1.2rem; /* Adiciona espaçamento interno ao botão (10px 20px) */
+    border-radius: 5px; /* Arredonda os cantos do botão (5px) */
+    cursor: pointer; /* Define o cursor como ponteiro ao passar sobre o botão */
+    font-size: 1rem; /* Define o tamanho da fonte do botão (16px) */
+}
+
+button:hover {
+    background-color: #2d8df3; /* Altera a cor de fundo do botão ao passar o mouse */
+}
+
+#resultado {
+    margin-top: 1.3rem; /* Adiciona espaçamento superior ao resultado */
+    margin-bottom: .8rem; /* Adiciona espaçamento inferior ao resultado */
+    font-size: 1.2rem; /* Define o tamanho da fonte do resultado */
+    color: #5d5d5d; /* Define a cor do texto do resultado */
+}
+
+hr{
+    border: 1px solid #bfbff0; /* Define a cor da linhae espessura do hr */
+}
+
+.texto-footer {
+    margin-top: .8rem; /* Adiciona espaçamento superior ao parágrafo */
+    margin-bottom: 1rem; /* Adiciona espaçamento inferior ao parágrafo */
+    font-size: .9rem; /* Define o tamanho da fonte do texto */
+    color: #136fba;/* Define a cor do texto-footer */
+}
+
+a{ text-decoration: none; color: #f65ce2;}
+a:hover{background-color: #e9f971;}
